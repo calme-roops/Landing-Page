@@ -1,5 +1,6 @@
 body {
     box-sizing: border-box;
+    margin: 0;
     padding: 0;
     font-family: 'Roboto';
 }
@@ -19,7 +20,7 @@ body {
 }
 
 .main-header {
-    margin: 0 auto;
+    margin: auto;
     max-width: 1200px;
     display: flex;
     background-color: #1F2937;
@@ -71,7 +72,7 @@ img {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 30px;
+    padding: 20px;
 
 }
 
@@ -118,14 +119,16 @@ img {
 h3 {
     font-size: 38px;
     color: #1F2937;
-    text-align: center;
     font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 
 .sub-content {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .sub-content img {
@@ -135,16 +138,9 @@ h3 {
     border: #3882F6 solid 4px;
 }
 
-.sub-content-subtext {
-    display: flex;
-    justify-content: space-between;
-    color: black;
-    gap: 20px;
-    font-size: 18px;
-}
-
-.sub-content-subtext p {
-    width: 250px;
+.product{
+    flex: 1 0 21%;
+    margin: 20px;
 }
 
 .quote {
